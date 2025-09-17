@@ -97,8 +97,6 @@ Create a class called `Car` with attributes `make`, `model`, `year`, and `mileag
 - Get car information
 - Check if the car needs maintenance (if mileage > 100,000)
 
-```python
-```
 
 ## Question 5: Class Attributes vs Instance Attributes
 Create a class called `Employee` with:
@@ -107,8 +105,6 @@ Create a class called `Employee` with:
 - A class method to get the total number of employees
 - An instance method to display employee information
 
-```python
-```
 
 ## Question 6: Inheritance - Animal Classes
 Create a base class `Animal` with attributes `name` and `species`, and a method `make_sound`. Then create two subclasses:
@@ -151,8 +147,6 @@ Create a class called `Temperature` with a private attribute `_celsius`. Use pro
 - Set the temperature in Celsius (with validation: must be >= -273.15)
 - Get the temperature in Fahrenheit (computed property)
 
-```python
-```
 
 ## Question 8: Special Methods (Magic Methods)
 Create a class called `Fraction` with attributes `numerator` and `denominator`. Implement the following special methods:
@@ -160,8 +154,6 @@ Create a class called `Fraction` with attributes `numerator` and `denominator`. 
 - `__add__` to add two fractions
 - `__eq__` to check if two fractions are equal
 
-```python
-```
 
 ## Question 9: Library Book Management
 Create a class called `Book` with attributes `title`, `author`, `isbn`, and `is_borrowed`. Include methods to:
@@ -176,8 +168,6 @@ Then create a `Library` class that can:
 - List all available books
 - List all borrowed books
 
-```python
-```
 
 ## Question 10: Calculator Class
 Create a class called `Calculator` with methods for basic operations:
@@ -188,8 +178,6 @@ Create a class called `Calculator` with methods for basic operations:
 - `power(a, b)`
 - `square_root(a)` (handle negative numbers)
 
-```python
-```
 
 ## Question 11: Student Grade Management
 Create a class called `StudentGrades` with attributes `student_name` and `grades` (a list). Include methods to:
@@ -199,8 +187,6 @@ Create a class called `StudentGrades` with attributes `student_name` and `grades
 - Get the lowest grade
 - Get the letter grade (A, B, C, D, F based on average)
 
-```python
-```
 
 ## Question 12: Shopping Cart Class
 Create a class called `ShoppingCart` with methods to:
@@ -211,8 +197,6 @@ Create a class called `ShoppingCart` with methods to:
 - Display the cart contents
 - Clear the cart
 
-```python
-```
 
 ## Question 13: Bank Account with Interest
 Extend the `BankAccount` class from Question 3 to include:
@@ -221,8 +205,6 @@ Extend the `BankAccount` class from Question 3 to include:
 - A method to get account statement with transaction history
 - A method to transfer money to another account
 
-```python
-```
 
 ## Question 14: Shape Hierarchy
 Create a base class `Shape` with methods `area()` and `perimeter()`. Then create subclasses:
@@ -232,8 +214,6 @@ Create a base class `Shape` with methods `area()` and `perimeter()`. Then create
 
 Each subclass should implement the area and perimeter methods appropriately.
 
-```python
-```
 
 ## Question 15: Employee Management System
 Create a class called `Employee` with attributes `name`, `employee_id`, `department`, and `salary`. Include methods to:
@@ -249,8 +229,6 @@ Then create a `Company` class that can:
 - Calculate total payroll
 - Give raises to all employees in a department
 
-```python
-```
 
 ## Question 16: Game Character Class
 Create a class called `GameCharacter` with attributes `name`, `health`, `attack_power`, and `defense`. Include methods to:
@@ -260,8 +238,6 @@ Create a class called `GameCharacter` with attributes `name`, `health`, `attack_
 - Check if the character is alive
 - Display character status
 
-```python
-```
 
 ## Question 17: Book Library with Categories
 Create a class called `Book` with attributes `title`, `author`, `isbn`, `category`, and `is_borrowed`. Then create a `Library` class that can:
@@ -271,8 +247,6 @@ Create a class called `Book` with attributes `title`, `author`, `isbn`, `categor
 - Borrow and return books
 - Get statistics (total books, books by category, etc.)
 
-```python
-```
 
 ## Question 18: Bank Account with Multiple Types
 Create a base class `BankAccount` and two subclasses:
@@ -281,8 +255,6 @@ Create a base class `BankAccount` and two subclasses:
 
 Each should have appropriate methods for their specific functionality.
 
-```python
-```
 
 ## Question 19: Student Course Management
 Create a class called `Course` with attributes `course_name`, `course_code`, `credits`, and `students` (list). Include methods to:
@@ -297,8 +269,6 @@ Then create a `Student` class that can:
 - Calculate total credits
 - Get GPA (you can use a simple grade system)
 
-```python
-```
 
 ## Question 20: Restaurant Order Management
 Create a class called `MenuItem` with attributes `name`, `price`, and `category`. Then create a class called `Order` that can:
@@ -309,8 +279,6 @@ Create a class called `MenuItem` with attributes `name`, `price`, and `category`
 - Apply tip
 - Display the order summary
 
-```python
-```
 
 ## Bonus Challenge: Complete Library Management System
 Create a comprehensive library management system with:
@@ -320,8 +288,6 @@ Create a comprehensive library management system with:
 - `Transaction` class to track borrowing/returning
 - Methods for searching, borrowing, returning, and generating reports
 
-```python
-```
 
 ## Advanced Challenge: Bank System with Multiple Account Types
 Create a complete banking system with:
@@ -331,5 +297,3 @@ Create a complete banking system with:
 - `Bank` class to manage customers and accounts
 - Transaction history and reporting features
 
-```python
-```

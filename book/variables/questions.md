@@ -3,8 +3,6 @@
 ## Question 1: Variable Creation
 Create a variable called `student_name` and assign it the value "Sarah Johnson". Then print the variable.
 
-```python
-```
 
 ## Question 2: Multiple Data Types
 Create variables to store the following information about a book:
@@ -14,8 +12,6 @@ Create variables to store the following information about a book:
 - Price: 29.99
 - Available: True
 
-```python
-```
 
 ## Question 3: Variable Naming
 Which of the following are valid variable names in Python? Explain why the invalid ones are incorrect.
@@ -36,14 +32,10 @@ Start with a variable `x = 5`. Then:
 2. Multiply the result by 2
 3. Print the final value
 
-```python
-```
 
 ## Question 5: String Concatenation
 Create two variables: `first_name = "Alex"` and `last_name = "Brown"`. Create a third variable called `full_name` that combines them with a space in between. Print the result.
 
-```python
-```
 
 ## Question 6: Mathematical Operations
 Create variables `a = 15` and `b = 4`. Calculate and store the results of:
@@ -56,8 +48,6 @@ Create variables `a = 15` and `b = 4`. Calculate and store the results of:
 
 Print all results.
 
-```python
-```
 
 ## Question 7: Multiple Assignment
 Use multiple assignment to create three variables in one line:
@@ -67,8 +57,6 @@ Use multiple assignment to create three variables in one line:
 
 Then print all three values.
 
-```python
-```
 
 ## Question 8: Type Checking
 Create variables with different data types and use the `type()` function to check their types:
@@ -79,8 +67,6 @@ Create variables with different data types and use the `type()` function to chec
 
 Print the type of each variable.
 
-```python
-```
 
 ## Question 9: Variable Scope Practice
 Create a global variable `global_count = 0`. Then create a function called `increment_count()` that:
@@ -90,8 +76,6 @@ Create a global variable `global_count = 0`. Then create a function called `incr
 
 Call the function and print its return value.
 
-```python
-```
 
 ## Question 10: Real-world Application
 Create variables to represent a shopping cart:
@@ -106,8 +90,6 @@ Calculate and print:
 2. The tax amount (subtotal × tax_rate)
 3. The total cost (subtotal + tax)
 
-```python
-```
 
 ## Bonus Challenge
 Create a program that converts temperature from Celsius to Fahrenheit. Use variables to store:
@@ -117,5 +99,3 @@ Create a program that converts temperature from Celsius to Fahrenheit. Use varia
 
 Print a message like: "25 degrees Celsius is 77.0 degrees Fahrenheit"
 
-```python
-```

@@ -3,14 +3,10 @@
 ## Question 1: Conditional Loop
 Create a for loop that prints numbers 1 to 20, but only prints even numbers. Use a conditional statement inside the loop.
 
-```python
-```
 
 ## Question 2: Input Validation Loop
 Create a while loop that asks the user to enter their age. Keep asking until they enter a valid age (between 1 and 120), then print "Valid age entered!".
 
-```python
-```
 
 ## Question 3: Menu System
 Create a simple menu system with a while loop that:
@@ -19,8 +15,6 @@ Create a simple menu system with a while loop that:
 3. Performs the appropriate action
 4. Continues until user chooses to exit
 
-```python
-```
 
 ## Question 4: Data Processing with Conditions
 Create a list of numbers `[15, 23, 8, 42, 7, 14, 3, 9]` and use a loop to:
@@ -29,8 +23,6 @@ Create a list of numbers `[15, 23, 8, 42, 7, 14, 3, 9]` and use a loop to:
 - Skip numbers less than 10
 - Stop when you find a number greater than 40
 
-```python
-```
 
 ## Question 5: Nested Logic
 Create a program that simulates a simple ATM:
@@ -40,8 +32,6 @@ Create a program that simulates a simple ATM:
 - Handle deposits (add to balance)
 - Continue until user exits
 
-```python
-```
 
 ## Question 6: Error Handling
 Create a function that safely divides two numbers. It should:
@@ -50,8 +40,6 @@ Create a function that safely divides two numbers. It should:
 - Return the result or an error message
 - Test with various inputs (valid numbers, zero, non-numbers)
 
-```python
-```
 
 ## Question 7: State Machine
 Create a simple traffic light simulator:
@@ -61,8 +49,6 @@ Create a simple traffic light simulator:
 - Cycle: red → green → yellow → red
 - Exit when user types "quit"
 
-```python
-```
 
 ## Question 8: Complex Decision Tree
 Create a program that recommends activities based on:
@@ -72,8 +58,6 @@ Create a program that recommends activities based on:
 
 Print appropriate activity recommendations for different combinations.
 
-```python
-```
 
 ## Question 9: Data Filtering
 Create a list of student records with name, age, and grade:
@@ -92,8 +76,6 @@ Use loops and conditionals to:
 - Calculate average grade
 - Print summary statistics
 
-```python
-```
 
 ## Question 10: Game Logic
 Create a simple number guessing game with multiple rounds:
@@ -103,8 +85,6 @@ Create a simple number guessing game with multiple rounds:
 - Ask if user wants to play again
 - Show final score when they quit
 
-```python
-```
 
 ## Bonus Challenge: Shopping Cart System
 Create a shopping cart system that:
@@ -114,8 +94,6 @@ Create a shopping cart system that:
 - Handles inventory (limited quantities)
 - Shows cart contents and total
 
-```python
-```
 
 ## Advanced Challenge: Text Adventure Game
 Create a simple text adventure with:
@@ -125,8 +103,6 @@ Create a simple text adventure with:
 - Win/lose conditions
 - Save/load functionality
 
-```python
-```
 
 ## Expert Challenge: Data Analysis Tool
 Create a program that analyzes a dataset of sales records:
@@ -136,5 +112,3 @@ Create a program that analyzes a dataset of sales records:
 - Calculate monthly trends
 - Generate summary report
 
-```python
-```
