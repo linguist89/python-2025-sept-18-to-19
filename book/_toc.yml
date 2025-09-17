@@ -18,3 +18,11 @@ parts:
     chapters:
     - file: logic_flow/lesson.md
     - file: logic_flow/questions.md
+  - caption: Functions
+    chapters:
+    - file: functions/lesson.md
+    - file: functions/questions.md
+  - caption: Classes
+    chapters:
+    - file: classes/lesson.md
+    - file: classes/questions.md
