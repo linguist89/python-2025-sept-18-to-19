@@ -4,14 +4,12 @@
 Create a for loop that prints numbers 1 to 20, but only prints even numbers. Use a conditional statement inside the loop.
 
 ```python
-# Your code here
 ```
 
 ## Question 2: Input Validation Loop
 Create a while loop that asks the user to enter their age. Keep asking until they enter a valid age (between 1 and 120), then print "Valid age entered!".
 
 ```python
-# Your code here
 ```
 
 ## Question 3: Menu System
@@ -22,7 +20,6 @@ Create a simple menu system with a while loop that:
 4. Continues until user chooses to exit
 
 ```python
-# Your code here
 ```
 
 ## Question 4: Data Processing with Conditions
@@ -33,7 +30,6 @@ Create a list of numbers `[15, 23, 8, 42, 7, 14, 3, 9]` and use a loop to:
 - Stop when you find a number greater than 40
 
 ```python
-# Your code here
 ```
 
 ## Question 5: Nested Logic
@@ -45,7 +41,6 @@ Create a program that simulates a simple ATM:
 - Continue until user exits
 
 ```python
-# Your code here
 ```
 
 ## Question 6: Error Handling
@@ -56,7 +51,6 @@ Create a function that safely divides two numbers. It should:
 - Test with various inputs (valid numbers, zero, non-numbers)
 
 ```python
-# Your code here
 ```
 
 ## Question 7: State Machine
@@ -68,7 +62,6 @@ Create a simple traffic light simulator:
 - Exit when user types "quit"
 
 ```python
-# Your code here
 ```
 
 ## Question 8: Complex Decision Tree
@@ -80,7 +73,6 @@ Create a program that recommends activities based on:
 Print appropriate activity recommendations for different combinations.
 
 ```python
-# Your code here
 ```
 
 ## Question 9: Data Filtering
@@ -101,7 +93,6 @@ Use loops and conditionals to:
 - Print summary statistics
 
 ```python
-# Your code here
 ```
 
 ## Question 10: Game Logic
@@ -113,7 +104,6 @@ Create a simple number guessing game with multiple rounds:
 - Show final score when they quit
 
 ```python
-# Your code here
 ```
 
 ## Bonus Challenge: Shopping Cart System
@@ -125,7 +115,6 @@ Create a shopping cart system that:
 - Shows cart contents and total
 
 ```python
-# Your code here
 ```
 
 ## Advanced Challenge: Text Adventure Game
@@ -137,7 +126,6 @@ Create a simple text adventure with:
 - Save/load functionality
 
 ```python
-# Your code here
 ```
 
 ## Expert Challenge: Data Analysis Tool
@@ -149,5 +137,4 @@ Create a program that analyzes a dataset of sales records:
 - Generate summary report
 
 ```python
-# Your code here
 ```

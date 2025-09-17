@@ -4,7 +4,20 @@
 Create a class called `Student` with attributes `name`, `age`, and `grade`. Include a method called `introduce` that prints the student's information.
 
 ```python
-# Your code here
+class Student:
+    def __init__(self, name, age, grade):
+        self.name = name
+        self.age = age
+        self.grade = grade
+    
+    def introduce(self):
+        print(f"Hi, I'm {self.name}, I'm {self.age} years old, and I'm in grade {self.grade}.")
+
+# Test the class
+student1 = Student("Alice", 16, 10)
+student2 = Student("Bob", 17, 11)
+student1.introduce()
+student2.introduce()
 ```
 
 ## Question 2: Class with Methods
@@ -14,7 +27,25 @@ Create a class called `Rectangle` with attributes `length` and `width`. Include 
 - Return a string representation of the rectangle
 
 ```python
-# Your code here
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+    
+    def area(self):
+        return self.length * self.width
+    
+    def perimeter(self):
+        return 2 * (self.length + self.width)
+    
+    def __str__(self):
+        return f"Rectangle with length {self.length} and width {self.width}"
+
+# Test the class
+rect = Rectangle(5, 3)
+print(rect)
+print(f"Area: {rect.area()}")
+print(f"Perimeter: {rect.perimeter()}")
 ```
 
 ## Question 3: Bank Account Class
@@ -25,7 +56,38 @@ Create a class called `BankAccount` with attributes `account_holder` and `balanc
 - Display account information
 
 ```python
-# Your code here
+class BankAccount:
+    def __init__(self, account_holder, balance=0):
+        self.account_holder = account_holder
+        self.balance = balance
+    
+    def deposit(self, amount):
+        if amount > 0:
+            self.balance += amount
+            print(f"Deposited ${amount}. New balance: ${self.balance}")
+        else:
+            print("Deposit amount must be positive")
+    
+    def withdraw(self, amount):
+        if amount > 0 and amount <= self.balance:
+            self.balance -= amount
+            print(f"Withdrew ${amount}. New balance: ${self.balance}")
+        else:
+            print("Invalid withdrawal amount")
+    
+    def get_balance(self):
+        return self.balance
+    
+    def display_info(self):
+        print(f"Account Holder: {self.account_holder}")
+        print(f"Current Balance: ${self.balance}")
+
+# Test the class
+account = BankAccount("John Doe", 1000)
+account.display_info()
+account.deposit(500)
+account.withdraw(200)
+account.display_info()
 ```
 
 ## Question 4: Car Class with Methods
@@ -36,7 +98,6 @@ Create a class called `Car` with attributes `make`, `model`, `year`, and `mileag
 - Check if the car needs maintenance (if mileage > 100,000)
 
 ```python
-# Your code here
 ```
 
 ## Question 5: Class Attributes vs Instance Attributes
@@ -47,7 +108,6 @@ Create a class called `Employee` with:
 - An instance method to display employee information
 
 ```python
-# Your code here
 ```
 
 ## Question 6: Inheritance - Animal Classes
@@ -56,7 +116,33 @@ Create a base class `Animal` with attributes `name` and `species`, and a method 
 - `Cat` that overrides `make_sound` to print "Meow!"
 
 ```python
-# Your code here
+class Animal:
+    def __init__(self, name, species):
+        self.name = name
+        self.species = species
+    
+    def make_sound(self):
+        print(f"{self.name} makes a sound")
+
+class Dog(Animal):
+    def __init__(self, name):
+        super().__init__(name, "Canine")
+    
+    def make_sound(self):
+        print("Woof!")
+
+class Cat(Animal):
+    def __init__(self, name):
+        super().__init__(name, "Feline")
+    
+    def make_sound(self):
+        print("Meow!")
+
+# Test the classes
+dog = Dog("Buddy")
+cat = Cat("Whiskers")
+dog.make_sound()
+cat.make_sound()
 ```
 
 ## Question 7: Property Decorators
@@ -66,7 +152,6 @@ Create a class called `Temperature` with a private attribute `_celsius`. Use pro
 - Get the temperature in Fahrenheit (computed property)
 
 ```python
-# Your code here
 ```
 
 ## Question 8: Special Methods (Magic Methods)
@@ -76,7 +161,6 @@ Create a class called `Fraction` with attributes `numerator` and `denominator`. 
 - `__eq__` to check if two fractions are equal
 
 ```python
-# Your code here
 ```
 
 ## Question 9: Library Book Management
@@ -93,7 +177,6 @@ Then create a `Library` class that can:
 - List all borrowed books
 
 ```python
-# Your code here
 ```
 
 ## Question 10: Calculator Class
@@ -106,7 +189,6 @@ Create a class called `Calculator` with methods for basic operations:
 - `square_root(a)` (handle negative numbers)
 
 ```python
-# Your code here
 ```
 
 ## Question 11: Student Grade Management
@@ -118,7 +200,6 @@ Create a class called `StudentGrades` with attributes `student_name` and `grades
 - Get the letter grade (A, B, C, D, F based on average)
 
 ```python
-# Your code here
 ```
 
 ## Question 12: Shopping Cart Class
@@ -131,7 +212,6 @@ Create a class called `ShoppingCart` with methods to:
 - Clear the cart
 
 ```python
-# Your code here
 ```
 
 ## Question 13: Bank Account with Interest
@@ -142,7 +222,6 @@ Extend the `BankAccount` class from Question 3 to include:
 - A method to transfer money to another account
 
 ```python
-# Your code here
 ```
 
 ## Question 14: Shape Hierarchy
@@ -154,7 +233,6 @@ Create a base class `Shape` with methods `area()` and `perimeter()`. Then create
 Each subclass should implement the area and perimeter methods appropriately.
 
 ```python
-# Your code here
 ```
 
 ## Question 15: Employee Management System
@@ -172,7 +250,6 @@ Then create a `Company` class that can:
 - Give raises to all employees in a department
 
 ```python
-# Your code here
 ```
 
 ## Question 16: Game Character Class
@@ -184,7 +261,6 @@ Create a class called `GameCharacter` with attributes `name`, `health`, `attack_
 - Display character status
 
 ```python
-# Your code here
 ```
 
 ## Question 17: Book Library with Categories
@@ -196,7 +272,6 @@ Create a class called `Book` with attributes `title`, `author`, `isbn`, `categor
 - Get statistics (total books, books by category, etc.)
 
 ```python
-# Your code here
 ```
 
 ## Question 18: Bank Account with Multiple Types
@@ -207,7 +282,6 @@ Create a base class `BankAccount` and two subclasses:
 Each should have appropriate methods for their specific functionality.
 
 ```python
-# Your code here
 ```
 
 ## Question 19: Student Course Management
@@ -224,7 +298,6 @@ Then create a `Student` class that can:
 - Get GPA (you can use a simple grade system)
 
 ```python
-# Your code here
 ```
 
 ## Question 20: Restaurant Order Management
@@ -237,7 +310,6 @@ Create a class called `MenuItem` with attributes `name`, `price`, and `category`
 - Display the order summary
 
 ```python
-# Your code here
 ```
 
 ## Bonus Challenge: Complete Library Management System
@@ -249,7 +321,6 @@ Create a comprehensive library management system with:
 - Methods for searching, borrowing, returning, and generating reports
 
 ```python
-# Your code here
 ```
 
 ## Advanced Challenge: Bank System with Multiple Account Types
@@ -261,5 +332,4 @@ Create a complete banking system with:
 - Transaction history and reporting features
 
 ```python
-# Your code here
 ```
